@@ -1,0 +1,15 @@
+>>> new_books1 = Books.objects.create(title = "C Sharp")
+>>> new_books2 = Books.objects.create(title = "Java")
+>>> new_books3 = Books.objects.create(title = "Python")
+>>> new_books4 = Books.objects.create(title = "PHP")
+>>> new_books5 = Books.objects.create(title = "Ruby")
+
+
+>>> new_author1 = Authors.objects.create(name = "Jane Austin")
+>>> new_author2 = Authors.objects.create(name = "Emily Dicknson")
+>>> new_author3 = Authors.objects.create(name = "Fyodor Dostoesvksy")
+>>> new_author4 = Authors.objects.create(name = "William Shakespeare")
+>>> new_author5 = Authors.objects.create(name = "Lau Tzu")
+
+
+
